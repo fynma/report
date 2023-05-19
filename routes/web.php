@@ -19,7 +19,7 @@ Route::get('/login', [loginController::class, 'showLoginForm'])->name('viewlogin
 Route::post('/login', [loginController::class, 'login'])->name('login');
 Route::post('/logout', [loginController::class, 'logout'])->name('logout');
 
-Route::get('/admin', [adminController::class, 'index'])->name('admin');
+Route::get('/admin', [adminController::class, 'admin'])->name('admin');
 Route::get('/user' , [userController ::class, 'index'])->name('user`');
 
 
