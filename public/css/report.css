@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/wp-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Poppins, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.con{
+    width: 150vh;
+    height: 50vh;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5vh;
+}
+.title{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.form {
+    margin: 5vh;
+}
+
+.signature{
+    margin: 5vh;
+}
+table {
+    margin-top: 2vh;
+    color: black;
+}
+tr td{
+    margin: 5px;
+}
+input,  select{
+    margin: 5px;
+}
+a p .sign{
+    color: #537FE7;
+}
+
+.submit{
+    padding: 5px;
+    text-align: center;
+}
+
+/* ============================ PAGE ABOUT SIGNATURE ============================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ececec;
+    overflow: hidden;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signature .title {
+    font-weight: bold;
+  }
+  
+  .signature .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signature .wrapper {
+
+    border-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  canvas#canvas-ttd {
+    background: #fff;
+    cursor: crosshair;
+    border: 2px solid #4b00ff;
+}
+  
+  .signature #canvas-ttd {
+    margin-bottom: 10px;
+  }
+  
+  .signature #clear {
+    width: 100%;
+    height: 100%;
+  }
+
+  .signature .submit {
+    border-radius: 3px;
+    margin-left: 10px;
+    width: 50px;
+    height: 100%;
+    padding: 10px;
+    background-color: #537FE7;
+    border: 2px solid #4b00ff;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+
+/* .flex-row {
+    display: flex;
+}
+.wrapper {
+    border: 1px solid #4b00ff;
+    border-right: 0;
+}
+canvas#signature-pad {
+    background: #fff;
+    width: 100%;
+    height: 80%;
+    cursor: crosshair;
+}
+button#clear {
+    height: 100%;
+    background: #4b00ff;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+button#clear span {
+    transform: rotate(90deg);
+    display: block;
+}
+
+canvas{
+    border: 1px solid black;
+}
+
+.clear-btn{
+    transform: rotate(285deg);
+} */

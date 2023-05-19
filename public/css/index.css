@@ -1,0 +1,87 @@
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        color: white;
+        background-image: url(../image/index.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        font-family: Poppins, sans-serif;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+
+    nav{
+        display:flex;
+        justify-content: space-between;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .cp{
+        font-size: 14px;
+    }
+
+    .nav button{
+        width: 10vw;
+        height: 2vw;
+        color: white;
+        background: rgba(71, 71, 71, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.550);
+        border-radius: 5px;
+        font-weight: bold;
+        text-shadow: 1px;
+    }
+    /* isi */
+   .content{
+    width: 60%;
+    height: 10vw;
+    position: fixed;
+    left: 40%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    
+   }
+
+   .button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 28%;
+    color: wheat;
+   }
+
+   .button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    height: 100%;
+    margin: 2px;
+    border-radius: 20px;
+    background: rgba(105, 105, 105, 0);
+    border: 2px solid rgba(255, 255, 255, 0.250);
+    text-align: center;
+   }
+
+   h1{
+    font-size: 3vw;
+   }
+
+   p{
+    font-size: 2vw;
+   }
