@@ -15,8 +15,8 @@
             </div>
             <div class="form">
                 <h2>Login Here !</h2>
-                @csrf
                 <form action="{{ route ('login')}}" method="post">
+                @csrf
                         <label for="username">Username</label>
                         <input type="text" placeholder="Username" name="username"  class="input-user" required>
 
